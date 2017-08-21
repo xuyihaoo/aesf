@@ -12,7 +12,7 @@ import (
 	"crypto/sha1"
 
 	"github.com/dchest/uniuri"
-	"golang.org/x/crypto/pbkdf2"
+	"github.com/golang/crypto/pbkdf2"
 )
 
 const (
